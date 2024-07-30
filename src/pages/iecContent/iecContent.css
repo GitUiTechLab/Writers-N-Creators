@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.iec-content .iec-content-header {
+  @apply text-primaryFontColor font-playfairDisplay text-[56px] font-[700px];
+}
+
+.iec-content-overview .header,
+.iec-content-description .header {
+  @apply text-contactUsBtnColor font-inter text-[40px] font-[700px];
+}
+
+.iec-content-overview .content {
+  @apply text-primaryFontColor text-[18px] font-inter mt-4;
+}
+
+.iec-content-description .description .odd-container {
+  @apply flex flex-row-reverse justify-between items-start p-4;
+}
+
+.iec-content-description .description .even-container {
+  @apply flex flex-row justify-start items-start p-4;
+}
+
+.iec-content-description .description .desc-header {
+  @apply font-inter text-[28px] text-primaryFontColor font-[700px];
+}

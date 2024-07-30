@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.all-materials .header {
+  @apply text-contactUsBtnColor font-inter text-[40px] font-[700px];
+}
+
+.each-description-card {
+  @apply m-5 bg-primaryBgColor w-[1188px];
+}
+
+.each-description-card .header {
+  @apply font-inter text-[28px] font-[600px] text-black text-center p-2;
+}
+
+.each-description-card .subHeader {
+  @apply font-inter text-[18px] font-[400px] text-black text-center p-2;
+}

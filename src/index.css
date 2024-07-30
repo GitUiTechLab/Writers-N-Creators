@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.padding {
+  @apply px-[86px] py-[20px];
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  @apply flex justify-between items-center py-2 px-5 font-inter text-primaryFontColor bg-primaryBgColor;
+}
+
+.navbar .navbar-links {
+  @apply flex items-center justify-between;
+}
+
+.hero-section {
+  @apply bg-hero-image bg-cover bg-center h-[576px] flex  items-center justify-center flex-col;
+}
+
+.hero-section-header {
+  @apply text-[40px] font-bold leading-7 text-textWhite mb-10 font-playfairDisplay;
+}
+
+.hero-section-subheader {
+  @apply text-[20px] leading-7 text-textWhite font-inter font-[400px] text-center;
+}
+
+.content-writting-container {
+  @apply flex flex-col items-center justify-center;
+}
+
+.content-writting-container .header {
+  @apply font-playfairDisplay text-[32px] m-4 text-primaryFontColor;
+}
+
+.content-writting-container .content-card {
+  @apply flex justify-between items-center flex-wrap p-[60px];
+}
+
+.content-writting-container .content-card .content-card-item {
+  @apply flex flex-col items-center justify-center bg-secondaryBgColor p-5 cursor-pointer;
+}
+
+.content-writting-container .content-card .content-card-item:last-child {
+  @apply mt-7 cursor-pointer;
+}
+
+.content-writting-container .content-card .card-content {
+  @apply font-inter text-primaryFontColor text-[28px] font-[600px];
+}
+
+.content-writting-container .content-card .card-list-item {
+  @apply font-inter text-[18px] text-primaryFontColor font-[600px];
+}
+
+.get-in-touch-container {
+  @apply bg-primaryBgColor relative flex flex-col justify-center items-center px-10 py-5 mt-6;
+}
+
+.get-in-touch-container .image1 {
+  @apply top-[-70px] right-[-10px] absolute;
+}
+
+.get-in-touch-container .image2 {
+  @apply bottom-[-80px]  left-[40px] absolute;
+}
+
+.get-in-touch-container .content-header {
+  @apply font-playfairDisplay text-[40px] text-primaryFontColor p-4;
+}
+
+.get-in-touch-container .content-sub-header {
+  @apply font-inter text-[16px] text-primaryFontColor text-center;
+}
+
+.footer {
+  @apply bg-primaryBgColor py-4 px-20  mt-[200px]  flex justify-start items-start;
+}
+
+.footer .footer-content-1 {
+  @apply flex justify-between items-center flex-col mr-10 w-[387px];
+}
+
+.footer .footer-content-1 .social-logo-container {
+  @apply flex justify-start items-start;
+}
+
+.footer .footer-content-2 {
+  @apply ml-10 mr-20 w-[400px];
+}
+
+.footer .footer-content-3 {
+  @apply ml-10 w-[300px];
+}
+
+.footer-border {
+  @apply border-r-[1px] border-contactUsBtnColor ml-3 h-[250px];
+}
+
+.contact-us-btn {
+  @apply bg-contactUsBtnColor text-textWhite py-2 px-4 rounded-md;
 }

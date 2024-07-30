@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-writting-page .content-writting-header {
+  @apply text-primaryFontColor font-playfairDisplay text-[56px] font-[700px];
+}
+
+.content-writting-page .overview-header {
+  @apply text-contactUsBtnColor font-inter text-[40px] font-[700px];
+}
+
+.content-writting-page .overview-content {
+  @apply text-primaryFontColor text-[18px] font-inter mt-4;
+}
