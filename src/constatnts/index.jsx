@@ -13,6 +13,7 @@ import Posters from "../assets/posters.png";
 import Leaflets from "../assets/leaflets.png";
 import ShortFilmScript from "../assets/contentScriptWritting_image.png";
 import ContentWrittingImage from "../assets/contentWritting_image.png";
+import { AudioVideo, BiharAquaExpo, BiharDairyExpo, BiharShortFilm, BrandingAdvertising, EventExhibition, GiftsNMisc, HandShakeIcon, IdeaIcon, OutcomesIcon, PrintPublications, PublicRelations, RequestIcon, TeamworkIcon } from "../assets";
 
 export const contentDetails = [
     {
@@ -156,4 +157,131 @@ export const contentWrittingContent = [
         ]
     }
 
+]
+
+export const NavbarContent = [
+    {
+        item: "About Us",
+        link: "/about-us"
+    },
+    {
+        item : "Services",
+        subItems: [
+            {
+                item: "Events & exhibitions",
+                link: "/events & exhibitions"
+            },
+            {
+                item: "Printing & Production",
+                link: "/printing & productions"
+            },
+            {
+                item: "Audio & Video",
+                link: "/audio & video"
+            }, 
+            {
+                item: "Public Realtions",
+                link: "/public relations"
+            },
+            {
+                item: "Gifts & Misc Articles",
+                link: "/gifts&miscarticles"
+            },
+            {
+                item: "Branding & Advertising",
+                link: "/branding & advertising"
+            }
+        ],
+        link:"/section"
+        
+    },
+    {
+        item: "Portfolio",
+        link: "/portfolio"
+    },
+    {
+        item: "Careers",
+        link: "/careers"
+    },
+    {
+        item: "Blog",
+        link: "/blog"
+    }
+]
+
+export const HomePortfolioContent = [
+    {
+        image: BiharAquaExpo,
+        header: "Bihar Poultry & Aqua Expo 2019"
+    },
+    {
+        image: BiharShortFilm,
+        header: "Short Film for BUIDCO"
+    },
+    {
+        image: BiharDairyExpo,
+        header: "Bihar Dairy & Cattle Expo 2023"
+    }
+]
+
+export const HomeServiceSectionContent = [
+    {
+        image: EventExhibition,
+        header: "Events & Exhibitions"
+    },
+    {
+        image: PrintPublications,
+        header: "Print and Production"
+    },
+    {
+        image: AudioVideo,
+        header: "Audio and Video"
+    },
+    {
+        image: PublicRelations,
+        header: "Public Relation"
+    },
+    {
+        image: GiftsNMisc,
+        header: "Gifts & Misc. Articles"
+    },
+    {
+        image: BrandingAdvertising,
+        header: "Branding and Advertising"
+    }
+]
+
+export const WhyChooseUsContent = [
+    {
+        image: IdeaIcon,
+        header: "Innovative Solutions",
+        content: "We specialize in delivering creative and original content, ensuring your message resonates with your audience."
+    },
+    {
+        image: RequestIcon,
+        header: "Comprehensive serivices",
+        content: "From crafting compelling write-ups to organizing seamless events, we cover all your content and event management needs."
+    },
+    {
+        image: OutcomesIcon,
+        header: "Proven Success",
+        content: "Our track record includes a wide range of successful events and high-quality content projects, demonstrating our reliability and dedication to excellence."
+    },
+    {
+        image: TeamworkIcon,
+        header: "Experienced Team",
+        content: "Our skilled writers, editors, and event planners bring years of experience and a passion for quality to every project."
+    },
+    {
+        image: HandShakeIcon,
+        header: "Client-Centric Approach",
+        content: "We collaborate closely with you to understand your vision and objectives, tailoring our services to meet your specific goals."
+        
+    },
+    {
+        image: HandShakeIcon,
+        header: "Client-Centric Approach",
+        content: "We collaborate closely with you to understand your vision and objectives, tailoring our services to meet your specific goals."
+        
+    }
 ]

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.about-us-section {
+  @apply bg-writers_n_creators_bg_image bg-cover flex items-start justify-start flex-col p-10;
+}
+
+.home-about-us-container .about-us-section .header {
+  @apply text-[18px] font-inter font-normal text-primaryFontColor;
+}
+
+.home-about-us-container .sub-header {
+  @apply font-playfairDisplay text-[40px] text-primaryFontColor font-[700px] mt-2;
+}
+
+.home-about-us-container .content {
+  @apply font-inter text-[18px] font-normal text-primaryFontColor;
+}

@@ -1,0 +1,14 @@
+export { default as BiharAquaExpo } from "./bihar_aqua_expo_img.png";
+export { default as BiharShortFilm } from "./short_film_img.png";
+export { default as BiharDairyExpo } from "./bihar_dairy_expo.png";
+export { default as EventExhibition } from "./events_exhibitions.png";
+export { default as PrintPublications } from "./print_production.png";
+export { default as AudioVideo } from "./audio_video.png";
+export { default as PublicRelations } from "./public_relations.png";
+export { default as GiftsNMisc } from "./gift_n_misc.png";
+export { default as BrandingAdvertising } from "./branding.png";
+export { default as HandShakeIcon } from "./icons/handshake_icon.png";
+export { default as IdeaIcon } from "./icons/idea_icon.png";
+export { default as OutcomesIcon } from "./icons/outcomes_icon.png";
+export { default as TeamworkIcon } from "./icons/teamwork_icon.png";
+export { default as RequestIcon } from "./icons/request_icon.png";

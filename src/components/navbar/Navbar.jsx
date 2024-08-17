@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from "../../assets/weitersNcreators 2.png";
+import { NavbarContent } from '../../constatnts';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -8,9 +10,9 @@ const Navbar = () => {
             <img src={Logo} width={164} height={66} alt="logo" />
         </div>
         <div className='navbar-links'>
-            {["About Us", "Services", "Portfolio","Testimonials"].map((link,idx) => {
+            {NavbarContent.map((link,idx) => {
                 return (
-                    <div key={idx} className='navbar-link p-2 text-[18px]'>{link}</div>
+                    <Link key={idx} to={link.link} className='navbar-link p-2 text-[18px]'>{link.item}</Link>
                 )
             })}
         </div>
