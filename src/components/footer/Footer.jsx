@@ -9,7 +9,7 @@ import { footerContent } from '../../constatnts';
 const Footer = () => {
   return (
     <>
-    <div className='footer h-[395px]'>
+    <div className='footer h-[395px] my-0'>
         <div className='footer-content-1'>
             <div>
             <div>
@@ -47,10 +47,13 @@ const Footer = () => {
             <div className='content'>
                 {["Home", "About Us", "Portfolio", "Contact Us"].map((each,idx) => {
                     return (
-                        <div className='each-content text-contactUsBtnColor text-[14px]' key={idx}>
-                            {each}
-                        </div>
-                    )
+                      <div
+                        className="each-content text-contactUsBtnColor text-[14px] my-5 cursor-pointer"
+                        key={idx}
+                      >
+                        {each}
+                      </div>
+                    );
                 })}
             </div>
         </div>
@@ -62,10 +65,13 @@ const Footer = () => {
             <div className='content'>
                 {["Events & Exhibitions", "Branding & Advertising", "Print & Production", "Audio & Video", "Public Relations"].map((each,idx) => {
                     return (
-                        <div className='each-content text-contactUsBtnColor text-[14px] mx-0 my-5' key={idx}>
-                            {each}
-                        </div>
-                    )
+                      <div
+                        className="each-content text-contactUsBtnColor text-[14px] mx-0 my-5 cursor-pointer"
+                        key={idx}
+                      >
+                        {each}
+                      </div>
+                    );
                 })}
             </div>
         </div>

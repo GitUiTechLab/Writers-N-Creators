@@ -29,7 +29,7 @@ function App() {
         <Route path="/section" element={<Section />} />
       </Routes>
       {/* <GetInTouch /> */}
-      <Footer />
+      <Footer/>
     </div>
   );
 }

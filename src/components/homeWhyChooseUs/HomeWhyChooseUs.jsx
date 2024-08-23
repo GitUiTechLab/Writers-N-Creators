@@ -3,8 +3,8 @@ import { WhyChooseUsContent } from '../../constatnts'
 const HomeWhyChooseUs = () => {
   return (
     <div className='home-why-choose-us-container flex justify-center items-center flex-col'>
-        <div className='section-sub-header'>
-            Why Choose Us
+        <div className='section-sub-header my-5'>
+            Why Choose Us ?
         </div>
         <div className='content bg-why_choose_us_bg_image bg-cover'>
         <div className=" px-4 sm:px-6 lg:px-8 py-8">
