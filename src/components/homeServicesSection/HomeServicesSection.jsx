@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeServiceSectionContent } from "../../constatnts/index";
+import { HomeServiceSectionContent } from "../../constants/index";
 
 const HomeServicesSection = () => {
   return (

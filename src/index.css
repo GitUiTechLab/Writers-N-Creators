@@ -9,6 +9,10 @@
   @apply px-[86px] py-[20px];
 }
 
+.eventsMain{
+  @apply font-inter
+}
+
 .navbar {
   @apply flex justify-between items-center py-2 px-5 font-inter text-primaryFontColor bg-primaryBgColor;
 }
