@@ -1,0 +1,11 @@
+.navbarButton{
+    color: #A67B05;
+    border: "2px solid #A67B05";
+    border-radius: "20px";
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 18px;
+}

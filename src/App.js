@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Careers from "./pages/careers/Careers";
-import Blogs from "./pages/blogs/Blogs";
+import Blogs from "./pages/blogs/Blogs.js";
 import Section from "./pages/services/subPages/section/Section";
 import Events from "./pages/services/mainPages/eventsandexhibitions/index";
 import AandV from "./pages/services/mainPages/aandv";
@@ -19,6 +19,7 @@ import Food from "./pages/services/subPages/writersandcreators/Food";
 import Govt from "./pages/services/subPages/writersandcreators/Govt";
 import Offsite from "./pages/services/subPages/writersandcreators/Offsite";
 import Writers from "./pages/services/subPages/writersandcreators/Writers";
+import Contact from "./pages/Contact/Contact.js";
 function App() {
   return (
     <div className="App">
@@ -44,9 +45,10 @@ function App() {
         <Route path="/food-and-cultural-fests" element={<Food />} />
         <Route path="/government-department-events" element={<Govt />} />
         <Route path="/offsite-leisure-tours" element={<Offsite />} />
+        <Route path="/contact-us" element={<Contact />} />
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

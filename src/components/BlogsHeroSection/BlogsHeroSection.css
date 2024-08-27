@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-hero-section {
+  @apply h-[595px] bg-cover bg-center flex justify-end items-center flex-col pb-10;
+}
+
+.home-hero-section .header {
+  @apply font-playfairDisplay font-bold text-[40px] text-white;
+}
+
+.home-hero-section .sub-header {
+  @apply font-inter font-normal text-[16px] text-white mt-3;
+}
+
+.home-hero-section .btn-container {
+  @apply w-[228px] h-[58px] font-inter text-center border rounded-[10px] py-0 px-[20px] bg-white text-black mt-4;
+}

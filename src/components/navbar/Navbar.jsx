@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/weitersNcreators 2.png";
 import { NavbarContent } from "../../constants";
 import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
+import "./Navbar.css";
 
 const Navbar = () => {
   // State to manage the mobile menu visibility
@@ -22,11 +23,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-white shadow-md fixed top-0 w-full z-50">
+    // fixed top-0
+    <div style={{ backgroundColor: "FFFEE8" }} className="navbar shadow-md w-full z-50">
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="navbar-logo">
           <Link to="/">
-            <img src={Logo} width={164} height={66} alt="logo" />
+            <img src={Logo} width={164} height={66} alt="Header Logo" />
           </Link>
         </div>
 
@@ -39,9 +41,8 @@ const Navbar = () => {
 
         {/* Navbar Links */}
         <div
-          className={`navbar-links md:flex md:flex-row md:space-x-4 md:items-center ${
-            isMobileMenuOpen ? "block" : "hidden"
-          } md:block`}
+          className={`navbar-links md:flex md:flex-row md:space-x-4 md:items-center ${isMobileMenuOpen ? "block" : "hidden"
+            } md:block`}
         >
           {NavbarContent.map((link, idx) => {
             return link.subItems ? (
@@ -81,11 +82,13 @@ const Navbar = () => {
         </div>
 
         {/* Contact Us Button */}
-        <div className="hidden md:block">
-          <button className="outline-none font-semibold text-[#453302]">
-            Contact Us
-          </button>
-        </div>
+        <Link to="/contact-us">
+          <div className="hidden md:block">
+            <button className="navbarButton">
+              Contact Us
+            </button>
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import { footerContent } from "../../constants";
 
 const Footer = () => {
   return (
-    <>
+    <div>
       <div className="footer h-[395px] my-0">
         <div className="footer-content-1">
           <div>
@@ -91,7 +91,7 @@ const Footer = () => {
       <div className="footer-copyright h-[40px] bg-contactUsBtnColor text-white font-inter text-[14px]">
         Copyright@2023
       </div>
-    </>
+    </div>
   );
 };
 

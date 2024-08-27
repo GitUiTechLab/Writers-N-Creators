@@ -1,0 +1,93 @@
+.contact-us-main-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/ContactUs.png');
+    width: 100%;
+    height: 410px;
+    position: relative;
+}
+
+.contact-us-main-head {
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 130px;
+    right: 45%;
+}
+
+.contact-us-form-content-alignment-container {
+    width: 100%;
+    position: absolute;
+    top: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-us-form-content-container {
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us-content-head {
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    color: #453302;
+}
+
+.contact-us-content-para {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #453302;
+}
+
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 50%;
+}
+
+.contact-us-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-form-label {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #453302;
+    width: 290px;
+    height: 28px;
+}
+
+.contact-us-input-fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-us-form-input {
+    width: 258px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #919299;
+}

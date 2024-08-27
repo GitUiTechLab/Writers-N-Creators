@@ -1,0 +1,30 @@
+
+.portfolio-get-in-touch-container{
+    position: relative;
+    margin: 70px 0px;
+}
+
+.portfolio-get-in-touch-image1{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.portfolio-get-in-touch {
+    padding: 80px 0px;
+    background-color: #FFF9EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.portfolio-get-in-touch-image2{
+    position: absolute;
+    left: 0;
+    top: 440px;
+}
